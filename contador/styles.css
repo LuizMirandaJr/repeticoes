@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 87, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+
+#box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    border-radius: 20px;
+    gap: 30px;
+}
+
+#dados { 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+& > #botao {
+    padding: 10px 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: rgb(221, 221, 221);
+    border: none;
+}
+& > #botao:hover {
+    background-color: rgb(208, 208, 208);
+}
+
+
+}
+
+#dados input {
+    font-size: 24px;
+    line-height: 26px;
+    padding: 10px; 
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+
+#res {
+    font-size: 28px;
+    text-align: center;
+}
